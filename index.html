@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MBtech | Brand Communications Consultancy, Noida</title>
+<meta name="description" content="MBtech is a brand communications consultancy in Noida offering SEO, PPC, social media, influencer marketing, digital PR and web development.">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400..800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#0B0B0C;text-decoration:none}
+a:hover{color:#D9181F}
+html{scroll-behavior:smooth}
+@property --n{syntax:'<integer>';initial-value:0;inherits:false}
+@keyframes wup{from{transform:translateY(105%)}to{transform:none}}
+@keyframes fadeup{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes mqr{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes dash{to{stroke-dashoffset:-24}}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.8)}}
+@keyframes floaty{from{transform:translateY(0)}to{transform:translateY(-14px)}}
+@keyframes rise{from{opacity:0;transform:translateY(48px)}to{opacity:1;transform:none}}
+@keyframes countup{from{--n:0}to{--n:var(--t)}}
+.wm{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.1em}
+.w{display:inline-block;animation:wup .9s cubic-bezier(.2,.7,.2,1) both}
+.fu{animation:fadeup .9s cubic-bezier(.2,.7,.2,1) both}
+.mq{display:flex;width:max-content;animation:mq 45s linear infinite}
+.mqr{animation-name:mqr;animation-duration:55s}
+.mqw:hover .mq{animation-play-state:paused}
+.orbit{transform-origin:280px 260px;animation:spin 90s linear infinite}
+.flow line{stroke-dasharray:4 8;animation:dash 1.4s linear infinite}
+.pulse circle{transform-box:fill-box;transform-origin:center;animation:pulse 2.6s ease-in-out infinite}
+.pulse circle:nth-child(2n){animation-delay:.8s}
+.pulse circle:nth-child(3n){animation-delay:1.6s}
+.float{animation:floaty 5s ease-in-out infinite alternate}
+.f2{animation-delay:-1.5s;animation-duration:6s}
+.f3{animation-delay:-3s;animation-duration:7s}
+.card{transition:transform .35s cubic-bezier(.2,.7,.2,1),border-color .35s,box-shadow .35s}
+.card:hover{transform:translateY(-6px);border-color:#D9181F;box-shadow:0 18px 40px rgba(11,11,12,.08)}
+@supports (animation-timeline:view()){
+.reveal{animation:rise linear backwards;animation-timeline:view();animation-range:entry 0% entry 40%}
+.count{--n:var(--t);animation:countup linear backwards;animation-timeline:view();animation-range:entry 10% cover 40%;counter-reset:num var(--n)}
+.count::before{content:counter(num)}
+.count .cf{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+*{animation:none!important;transition:none!important}
+.count::before{content:none!important}
+.count .cf{display:inline!important}
+}
+
+html{scroll-padding-top:84px}
+.hn{max-width:1200px;margin:0 auto;padding:16px 32px;box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.hl{display:flex;align-items:center}
+.hl img{display:block;height:34px;width:auto}
+.hm{display:flex;align-items:center;gap:28px;font-size:15px;font-weight:500}
+.hm a{color:#0B0B0C}
+.hm a:hover{color:#D9181F}
+.hm a.on{color:#D9181F}
+.hm a.hq{display:inline-flex;align-items:center;min-height:44px;padding:0 22px;border-radius:999px;background:#D9181F;color:#FFFFFF;font-weight:600}
+.hm a.hq:hover{color:#FFFFFF;background:#B5121A}
+.ht{display:none;align-items:center;justify-content:center;flex-direction:column;gap:5px;width:46px;height:46px;border:1px solid #CFCBC4;border-radius:12px;background:#FFFFFF;cursor:pointer;padding:0}
+.ht span{display:block;width:20px;height:2px;background:#0B0B0C;border-radius:2px;transition:transform .3s,opacity .2s}
+.ht[aria-expanded=true] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.ht[aria-expanded=true] span:nth-child(2){opacity:0}
+.ht[aria-expanded=true] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.ht:focus-visible{outline:2px solid #D9181F;outline-offset:2px}
+@media (max-width:860px){
+.hn{padding:10px 20px}
+.hl img{height:30px}
+.ht{display:inline-flex}
+.hm{display:none;width:100%;flex-direction:column;align-items:stretch;gap:0;padding:6px 0 18px;font-size:18px}
+.hm.open{display:flex}
+.hm a{display:flex;align-items:center;min-height:54px;border-top:1px solid #ECEAE6}
+.hm a.hq{justify-content:center;margin-top:14px;border-top:0;min-height:54px;font-size:17px}
+}
+</style>
+</head>
+<body>
+<div style="background:#FFFFFF;color:#4A4A52;font-family:'Inter',system-ui,sans-serif;font-size:17px;line-height:1.6;width:100%">
+
+<!-- NAV -->
+<header style="position:sticky;top:0;z-index:20;background:rgba(255,255,255,0.96);backdrop-filter:blur(14px);border-bottom:1px solid #ECEAE6">
+<nav aria-label="Main" class="hn">
+<a href="#top" class="hl" aria-label="MBtech home"><img src="images/mbtech-logo.png" alt="MBtech" width="937" height="248" ></a>
+<button type="button" class="ht" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span><span></span></button>
+<div id="menu" class="hm"><a href="offerings.html">Offerings</a><a href="who-we-are.html">Who we are</a><a href="clients.html">Clients</a><a href="#testimonials">Testimonials</a><a href="contact.html">Contact</a><a class="hq" href="contact.html">Get a quote</a></div>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="top" style="background-image:radial-gradient(#D9D6CF 1px,transparent 1px);background-size:30px 30px;border-bottom:1px solid #ECEAE6">
+<div style="max-width:1200px;margin:0 auto;padding:96px 32px 88px;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:center;gap:56px">
+<div style="flex:1 1 520px;min-width:0">
+<div class="fu" style="display:inline-flex;align-items:center;gap:10px;padding:8px 16px;border-radius:999px;border:1px solid #CFCBC4;background:#FFFFFF;font-family:'JetBrains Mono',monospace;font-size:13px;color:#2E2E34">
+<span style="width:3px;height:16px;background:#D9181F"></span>
+<span>Brand communications consultancy · Noida</span>
+</div>
+<h1 style="margin:28px 0 0;font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:clamp(42px,6.2vw,82px);line-height:1.02;letter-spacing:-0.02em;color:#0B0B0C"><span class="wm"><span class="w" style="animation-delay:0.00s">Brands</span></span> <span class="wm"><span class="w" style="animation-delay:0.08s">that</span></span> <span class="wm"><span class="w" style="animation-delay:0.16s">get</span></span> <span class="wm"><span class="w" style="animation-delay:0.24s">found,</span></span> <span class="wm"><span class="w" style="animation-delay:0.32s">trusted</span></span> <span class="wm"><span class="w" style="animation-delay:0.40s">and</span></span> <span class="wm"><span class="w" style="animation-delay:0.48s;color:#D9181F">remembered.</span></span></h1>
+<p class="fu" style="animation-delay:.6s;margin:28px 0 0;max-width:560px;font-size:19px;color:#4A4A52">MBtech pairs revolutionary ideas with a modern take on online marketing, from SEO and PPC to social, influencers and digital PR, so your brand shows up where your customers are looking.</p>
+<div class="fu" style="animation-delay:.75s;margin-top:40px;display:flex;flex-wrap:wrap;gap:14px">
+<a href="#contact" style="display:inline-flex;align-items:center;min-height:52px;padding:0 30px;border-radius:999px;background:#D9181F;color:#FFFFFF;font-weight:600;font-size:16px">Get a free consultation</a>
+<a href="#offerings" style="display:inline-flex;align-items:center;min-height:52px;padding:0 30px;border-radius:999px;border:1px solid #CFCBC4;color:#0B0B0C;font-weight:500;font-size:16px">Explore offerings</a>
+</div>
+</div>
+<div style="flex:1 1 420px;min-width:0;display:flex;justify-content:center">
+<div style="position:relative;width:100%;max-width:560px">
+<svg viewBox="0 0 560 520" role="img" aria-label="Diagram of MBtech's services (SEO, PPC, social, influencer, digital PR and web) all connected to your brand" style="width:100%;max-width:560px;height:auto;font-family:'Inter',sans-serif">
+<circle class="orbit" cx="280" cy="260" r="190" fill="none" stroke="#C9C4BC" stroke-dasharray="3 7"/>
+<circle cx="280" cy="260" r="110" fill="none" stroke="#DAD6CF"/>
+<g class="flow" stroke="#CFCBC4" stroke-width="1.5">
+<line x1="280" y1="260" x2="280" y2="70"/>
+<line x1="280" y1="260" x2="445" y2="165"/>
+<line x1="280" y1="260" x2="445" y2="355"/>
+<line x1="280" y1="260" x2="280" y2="450"/>
+<line x1="280" y1="260" x2="115" y2="355"/>
+<line x1="280" y1="260" x2="115" y2="165"/>
+</g>
+<g class="pulse" fill="#D9181F">
+<circle cx="280" cy="165" r="4"/>
+<circle cx="362" cy="212" r="4"/>
+<circle cx="362" cy="308" r="4"/>
+<circle cx="280" cy="355" r="4"/>
+<circle cx="198" cy="308" r="4"/>
+<circle cx="198" cy="212" r="4"/>
+</g>
+<g fill="#FFFFFF" stroke="#CFCBC4" stroke-width="1.5">
+<rect x="228" y="52" width="104" height="36" rx="18"/>
+<rect x="393" y="147" width="104" height="36" rx="18"/>
+<rect x="393" y="337" width="104" height="36" rx="18"/>
+<rect x="228" y="432" width="104" height="36" rx="18"/>
+<rect x="63" y="337" width="104" height="36" rx="18"/>
+<rect x="63" y="147" width="104" height="36" rx="18"/>
+</g>
+<g fill="#0B0B0C" font-size="14" font-weight="500" text-anchor="middle">
+<text x="280" y="75">SEO</text>
+<text x="445" y="170">PPC</text>
+<text x="445" y="360">Social</text>
+<text x="280" y="455">Influencer</text>
+<text x="115" y="360">Digital PR</text>
+<text x="115" y="170">Web</text>
+</g>
+<circle cx="280" cy="260" r="54" fill="#0B0B0C"/>
+<text x="280" y="256" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">Your</text>
+<text x="280" y="275" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">brand</text>
+</svg>
+<div class="float f1" style="position:absolute;left:-2%;top:4%;padding:14px 20px;border-radius:16px;background:#FFFFFF;border:1px solid #E4E2DE;box-shadow:0 14px 36px rgba(11,11,12,0.09)"><div style="font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:32px;line-height:1;color:#0B0B0C">96%</div><div style="margin-top:6px;font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">Client retention</div></div>
+<div class="float f2" style="position:absolute;right:-3%;top:42%;padding:14px 20px;border-radius:16px;background:#FFFFFF;border:1px solid #E4E2DE;box-shadow:0 14px 36px rgba(11,11,12,0.09)"><div style="font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:32px;line-height:1;color:#0B0B0C">230+</div><div style="margin-top:6px;font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">Professionals</div></div>
+<div class="float f3" style="position:absolute;left:2%;bottom:3%;padding:14px 20px;border-radius:16px;background:#FFFFFF;border:1px solid #E4E2DE;box-shadow:0 14px 36px rgba(11,11,12,0.09)"><div style="font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:32px;line-height:1;color:#0B0B0C">91%</div><div style="margin-top:6px;font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">Satisfied clients</div></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PROOF STRIP -->
+<section class="mqw" aria-label="Our offerings" style="background:#0B0B0C;overflow:hidden">
+<div class="mq" style="padding:22px 0;font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;color:#C8C8CE">
+<div style="display:flex;align-items:center;gap:36px;padding-right:36px;white-space:nowrap"><span>SEO</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>PPC Management</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Social Media Marketing</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Influencer Marketing</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Digital PR</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Website Development</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Affiliate Marketing</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Lead Generation</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Brand Awareness</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>App Installation</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Digital Marketing</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Consultancy</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i></div>
+<div aria-hidden="true" style="display:flex;align-items:center;gap:36px;padding-right:36px;white-space:nowrap"><span>SEO</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>PPC Management</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Social Media Marketing</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Influencer Marketing</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Digital PR</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Website Development</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Affiliate Marketing</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Lead Generation</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Brand Awareness</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>App Installation</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Digital Marketing</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i><span>Consultancy</span><i style="display:inline-block;width:3px;height:16px;background:#D9181F"></i></div>
+</div>
+</section>
+
+<!-- OFFERINGS -->
+<section id="offerings">
+<div style="max-width:1200px;margin:0 auto;padding:112px 32px 40px;box-sizing:border-box">
+<div style="font-family:'JetBrains Mono',monospace;font-size:13px;color:#D9181F;letter-spacing:0.08em">01 / OUR OFFERINGS</div>
+<h2 class="reveal" style="margin:16px 0 0;max-width:760px;font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:clamp(34px,4.4vw,56px);line-height:1.06;letter-spacing:-0.02em;color:#0B0B0C">A full range of digital marketing services, under one roof.</h2>
+<p style="margin:20px 0 0;max-width:620px">Pick one channel or run them together. Every engagement starts with a free consultation and an SEO analysis of your website.</p>
+
+<div style="margin-top:56px;display:flex;flex-wrap:wrap;gap:16px">
+<article class="card reveal" style="flex:1 1 340px;min-width:0;box-sizing:border-box;padding:32px;border-radius:24px;background:#F6F5F3;border:1px solid #E4E2DE">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#D9181F" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
+<h3 style="margin:22px 0 0;font-family:'Source Serif 4',Georgia,serif;font-weight:600;font-size:26px;color:#0B0B0C">Search Engine Optimization</h3>
+<p style="margin:10px 0 0;font-size:16px">Discover the world of SEO with our experts and climb the rankings that matter to your business.</p>
+</article>
+<article class="card reveal" style="flex:1 1 340px;min-width:0;box-sizing:border-box;padding:32px;border-radius:24px;background:#F6F5F3;border:1px solid #E4E2DE">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#D9181F" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>
+<h3 style="margin:22px 0 0;font-family:'Source Serif 4',Georgia,serif;font-weight:600;font-size:26px;color:#0B0B0C">PPC Management</h3>
+<p style="margin:10px 0 0;font-size:16px">Pay-per-click campaigns built to put your brand on the first page of search results.</p>
+</article>
+<article class="card reveal" style="flex:1 1 340px;min-width:0;box-sizing:border-box;padding:32px;border-radius:24px;background:#F6F5F3;border:1px solid #E4E2DE">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#D9181F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>
+<h3 style="margin:22px 0 0;font-family:'Source Serif 4',Georgia,serif;font-weight:600;font-size:26px;color:#0B0B0C">Social Media Marketing</h3>
+<p style="margin:10px 0 0;font-size:16px">The social market is the new form of effective business. We help you show up and engage there.</p>
+</article>
+<article class="card reveal" style="flex:1 1 340px;min-width:0;box-sizing:border-box;padding:32px;border-radius:24px;background:#F6F5F3;border:1px solid #E4E2DE">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#D9181F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7"/><path d="M18 14.3c2.2.6 3.5 2.6 3.5 5.7"/></svg>
+<h3 style="margin:22px 0 0;font-family:'Source Serif 4',Georgia,serif;font-weight:600;font-size:26px;color:#0B0B0C">Influencer Marketing</h3>
+<p style="margin:10px 0 0;font-size:16px">Turn real voices into brand advocates who bring your story to new audiences.</p>
+</article>
+<article class="card reveal" style="flex:1 1 340px;min-width:0;box-sizing:border-box;padding:32px;border-radius:24px;background:#F6F5F3;border:1px solid #E4E2DE">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#D9181F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><line x1="7" y1="9" x2="17" y2="9"/><line x1="7" y1="13" x2="17" y2="13"/><line x1="7" y1="17" x2="12" y2="17"/></svg>
+<h3 style="margin:22px 0 0;font-family:'Source Serif 4',Georgia,serif;font-weight:600;font-size:26px;color:#0B0B0C">Digital PR</h3>
+<p style="margin:10px 0 0;font-size:16px">Earn the coverage and credibility that turn a good brand into a trusted one.</p>
+</article>
+<article class="card reveal" style="flex:1 1 340px;min-width:0;box-sizing:border-box;padding:32px;border-radius:24px;background:#F6F5F3;border:1px solid #E4E2DE">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#D9181F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+<h3 style="margin:22px 0 0;font-family:'Source Serif 4',Georgia,serif;font-weight:600;font-size:26px;color:#0B0B0C">Website Development</h3>
+<p style="margin:10px 0 0;font-size:16px">Let's create a digital presence that looks sharp, loads fast and converts.</p>
+</article>
+</div>
+
+<div style="margin-top:16px;display:flex;flex-wrap:wrap;gap:16px">
+<div class="card reveal" style="flex:1 1 220px;min-width:0;box-sizing:border-box;padding:22px 26px;border-radius:18px;border:1px solid #E4E2DE;display:flex;align-items:center;justify-content:space-between;gap:12px"><span style="color:#0B0B0C;font-weight:500">Affiliate Marketing</span><span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">07</span></div>
+<div class="card reveal" style="flex:1 1 220px;min-width:0;box-sizing:border-box;padding:22px 26px;border-radius:18px;border:1px solid #E4E2DE;display:flex;align-items:center;justify-content:space-between;gap:12px"><span style="color:#0B0B0C;font-weight:500">Lead Generation</span><span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">08</span></div>
+<div class="card reveal" style="flex:1 1 220px;min-width:0;box-sizing:border-box;padding:22px 26px;border-radius:18px;border:1px solid #E4E2DE;display:flex;align-items:center;justify-content:space-between;gap:12px"><span style="color:#0B0B0C;font-weight:500">Brand Awareness</span><span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">09</span></div>
+<div class="card reveal" style="flex:1 1 220px;min-width:0;box-sizing:border-box;padding:22px 26px;border-radius:18px;border:1px solid #E4E2DE;display:flex;align-items:center;justify-content:space-between;gap:12px"><span style="color:#0B0B0C;font-weight:500">App Installation</span><span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">10</span></div>
+<div class="card reveal" style="flex:1 1 220px;min-width:0;box-sizing:border-box;padding:22px 26px;border-radius:18px;border:1px solid #E4E2DE;display:flex;align-items:center;justify-content:space-between;gap:12px"><span style="color:#0B0B0C;font-weight:500">Digital Marketing</span><span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">11</span></div>
+<div class="card reveal" style="flex:1 1 220px;min-width:0;box-sizing:border-box;padding:22px 26px;border-radius:18px;border:1px solid #E4E2DE;display:flex;align-items:center;justify-content:space-between;gap:12px"><span style="color:#0B0B0C;font-weight:500">Consultancy</span><span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">12</span></div>
+</div>
+</div>
+</section>
+
+<!-- WHO WE ARE / WHAT YOU GET -->
+<section id="about">
+<div style="max-width:1200px;margin:0 auto;padding:96px 32px 40px;box-sizing:border-box;display:flex;flex-wrap:wrap;gap:56px;align-items:flex-start">
+<div style="flex:1 1 380px;min-width:0;position:sticky;top:112px">
+<div style="font-family:'JetBrains Mono',monospace;font-size:13px;color:#D9181F;letter-spacing:0.08em">02 / WHO WE ARE</div>
+<h2 class="reveal" style="margin:16px 0 0;font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:clamp(34px,4.4vw,54px);line-height:1.06;letter-spacing:-0.02em;color:#0B0B0C">Ideas with reach. Execution you can measure.</h2>
+<p style="margin:20px 0 0">MBtech (M.B. Technologies) is a brand communications consultancy that has made its presence felt with revolutionary ideas and a modern take on online marketing. Our team of 230+ professionals has been serving clients for ten years.</p>
+<a href="who-we-are.html" style="margin-top:28px;display:inline-flex;align-items:center;min-height:48px;padding:0 26px;border-radius:999px;border:1px solid #CFCBC4;color:#0B0B0C;font-weight:500">Our story</a>
+</div>
+<div style="flex:1 1 460px;min-width:0">
+<div class="reveal" style="display:flex;gap:28px;padding:36px 0;border-top:1px solid #E4E2DE;"><div style="min-width:84px;font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:64px;line-height:1;letter-spacing:-0.03em;color:#D9181F">01</div><div style="min-width:0"><h3 style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:600;font-size:28px;line-height:1.2;color:#0B0B0C">Free consultancy</h3><p style="margin:10px 0 0;font-size:16px">Talk through your goals and options before you commit to anything.</p></div></div>
+<div class="reveal" style="display:flex;gap:28px;padding:36px 0;border-top:1px solid #E4E2DE;"><div style="min-width:84px;font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:64px;line-height:1;letter-spacing:-0.03em;color:#D9181F">02</div><div style="min-width:0"><h3 style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:600;font-size:28px;line-height:1.2;color:#0B0B0C">SEO website analysis</h3><p style="margin:10px 0 0;font-size:16px">A clear read on how your site performs in search today.</p></div></div>
+<div class="reveal" style="display:flex;gap:28px;padding:36px 0;border-top:1px solid #E4E2DE;"><div style="min-width:84px;font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:64px;line-height:1;letter-spacing:-0.03em;color:#D9181F">03</div><div style="min-width:0"><h3 style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:600;font-size:28px;line-height:1.2;color:#0B0B0C">New ways to reach audiences</h3><p style="margin:10px 0 0;font-size:16px">Fresh methods for finding people who have not met your brand yet.</p></div></div>
+<div class="reveal" style="display:flex;gap:28px;padding:36px 0;border-top:1px solid #E4E2DE;border-bottom:1px solid #E4E2DE;"><div style="min-width:84px;font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:64px;line-height:1;letter-spacing:-0.03em;color:#D9181F">04</div><div style="min-width:0"><h3 style="margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:600;font-size:28px;line-height:1.2;color:#0B0B0C">Brand advocate feedback</h3><p style="margin:10px 0 0;font-size:16px">Insight from the voices that already speak for your brand.</p></div></div>
+</div>
+</div>
+</section>
+
+<!-- STATS -->
+<section style="padding:56px 0 24px">
+<div style="max-width:1200px;margin:0 auto;padding:0 32px;box-sizing:border-box">
+<div style="display:flex;flex-wrap:wrap;border:1px solid #0B0B0C;border-radius:28px;background:#0B0B0C;overflow:hidden">
+<div style="flex:1 1 240px;min-width:0;box-sizing:border-box;padding:40px 32px;border-right:1px solid #2A2A2E">
+<div style="font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:72px;line-height:1;letter-spacing:-0.03em;color:#D9181F"><span class="count" style="--t:96"><span class="cf">96</span></span>%</div>
+<div style="margin-top:12px;font-family:'JetBrains Mono',monospace;font-size:13px;color:#D8D8DC">Client retention</div>
+</div>
+<div style="flex:1 1 240px;min-width:0;box-sizing:border-box;padding:40px 32px;border-right:1px solid #2A2A2E">
+<div style="font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:72px;line-height:1;letter-spacing:-0.03em;color:#D9181F"><span class="count" style="--t:10"><span class="cf">10</span></span></div>
+<div style="margin-top:12px;font-family:'JetBrains Mono',monospace;font-size:13px;color:#D8D8DC">Years of service</div>
+</div>
+<div style="flex:1 1 240px;min-width:0;box-sizing:border-box;padding:40px 32px;border-right:1px solid #2A2A2E">
+<div style="font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:72px;line-height:1;letter-spacing:-0.03em;color:#D9181F"><span class="count" style="--t:230"><span class="cf">230</span></span>+</div>
+<div style="margin-top:12px;font-family:'JetBrains Mono',monospace;font-size:13px;color:#D8D8DC">Professionals</div>
+</div>
+<div style="flex:1 1 240px;min-width:0;box-sizing:border-box;padding:40px 32px">
+<div style="font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:72px;line-height:1;letter-spacing:-0.03em;color:#D9181F"><span class="count" style="--t:91"><span class="cf">91</span></span>%</div>
+<div style="margin-top:12px;font-family:'JetBrains Mono',monospace;font-size:13px;color:#D8D8DC">Satisfied clients</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+<div style="max-width:1200px;margin:0 auto;padding:96px 32px 40px;box-sizing:border-box">
+<div style="font-family:'JetBrains Mono',monospace;font-size:13px;color:#D9181F;letter-spacing:0.08em">03 / HAPPY CLIENTS</div>
+<h2 class="reveal" style="margin:16px 0 0;max-width:760px;font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:clamp(34px,4.4vw,54px);line-height:1.06;letter-spacing:-0.02em;color:#0B0B0C">What our clients say about working with us.</h2>
+<div style="margin-top:48px;display:flex;flex-wrap:wrap;gap:16px">
+<figure class="card reveal" style="flex:1 1 320px;min-width:0;box-sizing:border-box;margin:0;padding:32px;border-radius:24px;background:#F6F5F3;border:1px solid #E4E2DE;display:flex;flex-direction:column;gap:24px">
+<blockquote style="margin:0;font-size:18px;line-height:1.55;color:#0B0B0C">Worked with MBtech on the Indirapuram Habitat Centre project.</blockquote>
+<div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">[ paste full testimonial ]</div>
+<figcaption style="margin-top:auto;display:flex;align-items:center;gap:14px">
+<span style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:#ECEAE6;color:#D9181F;font-weight:600">VG</span>
+<span><span style="display:block;color:#0B0B0C;font-weight:600">Vinay Gupta</span><span style="display:block;font-size:14px;color:#6B6B73">KD Realtors</span></span>
+</figcaption>
+</figure>
+<figure class="card reveal" style="flex:1 1 320px;min-width:0;box-sizing:border-box;margin:0;padding:32px;border-radius:24px;background:#F6F5F3;border:1px solid #E4E2DE;display:flex;flex-direction:column;gap:24px">
+<blockquote style="margin:0;font-size:18px;line-height:1.55;color:#0B0B0C">Credits MBtech's PPC and digital PR work for the results they saw.</blockquote>
+<div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">[ paste full testimonial ]</div>
+<figcaption style="margin-top:auto;display:flex;align-items:center;gap:14px">
+<span style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:#ECEAE6;color:#D9181F;font-weight:600">V</span>
+<span><span style="display:block;color:#0B0B0C;font-weight:600">Vandana</span><span style="display:block;font-size:14px;color:#6B6B73">Yatharth Travels</span></span>
+</figcaption>
+</figure>
+<figure class="card reveal" style="flex:1 1 320px;min-width:0;box-sizing:border-box;margin:0;padding:32px;border-radius:24px;background:#F6F5F3;border:1px solid #E4E2DE;display:flex;flex-direction:column;gap:24px">
+<blockquote style="margin:0;font-size:18px;line-height:1.55;color:#0B0B0C">Credits MBtech's SEO and social media work for their growth online.</blockquote>
+<div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">[ paste full testimonial ]</div>
+<figcaption style="margin-top:auto;display:flex;align-items:center;gap:14px">
+<span style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:#ECEAE6;color:#D9181F;font-weight:600">Z</span>
+<span><span style="display:block;color:#0B0B0C;font-weight:600">Zakir</span><span style="display:block;font-size:14px;color:#6B6B73">Servokon</span></span>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+
+<!-- CLIENTS -->
+<section id="clients">
+<div style="max-width:1200px;margin:0 auto;padding:72px 32px 24px;box-sizing:border-box">
+<div style="font-family:'JetBrains Mono',monospace;font-size:13px;color:#6B6B73;letter-spacing:0.08em">OUR VALUABLE CLIENTS</div>
+</div>
+<div class="mqw" style="overflow:hidden;border-top:1px solid #E4E2DE;border-bottom:1px solid #E4E2DE">
+<div class="mq mqr" style="padding:34px 0;font-family:'Source Serif 4',Georgia,serif;font-weight:600;font-size:56px;line-height:1;letter-spacing:-0.02em;color:#0B0B0C">
+<div style="display:flex;align-items:center;gap:56px;padding-right:56px;white-space:nowrap"><span>KD Realtors</span><i style="display:inline-block;width:4px;height:52px;background:#D9181F"></i><span>Yatharth Travels</span><i style="display:inline-block;width:4px;height:52px;background:#D9181F"></i><span>Servokon</span><i style="display:inline-block;width:4px;height:52px;background:#D9181F"></i><span>KD Realtors</span><i style="display:inline-block;width:4px;height:52px;background:#D9181F"></i><span>Yatharth Travels</span><i style="display:inline-block;width:4px;height:52px;background:#D9181F"></i><span>Servokon</span><i style="display:inline-block;width:4px;height:52px;background:#D9181F"></i></div>
+<div aria-hidden="true" style="display:flex;align-items:center;gap:56px;padding-right:56px;white-space:nowrap"><span>KD Realtors</span><i style="display:inline-block;width:4px;height:52px;background:#D9181F"></i><span>Yatharth Travels</span><i style="display:inline-block;width:4px;height:52px;background:#D9181F"></i><span>Servokon</span><i style="display:inline-block;width:4px;height:52px;background:#D9181F"></i><span>KD Realtors</span><i style="display:inline-block;width:4px;height:52px;background:#D9181F"></i><span>Yatharth Travels</span><i style="display:inline-block;width:4px;height:52px;background:#D9181F"></i><span>Servokon</span><i style="display:inline-block;width:4px;height:52px;background:#D9181F"></i></div>
+</div>
+</div>
+<div style="max-width:1200px;margin:0 auto;padding:24px 32px 40px;box-sizing:border-box"><a href="clients.html" style="font-weight:500;color:#D9181F">View all clients →</a></div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<div style="max-width:1200px;margin:0 auto;padding:96px 32px 112px;box-sizing:border-box">
+<div style="padding:56px;border-radius:32px;background:#F6F5F3;border:1px solid #E4E2DE;display:flex;flex-wrap:wrap;gap:56px">
+<div style="flex:1 1 380px;min-width:0">
+<div style="font-family:'JetBrains Mono',monospace;font-size:13px;color:#D9181F;letter-spacing:0.08em">04 / DISCUSS YOUR PROJECT</div>
+<h2 class="reveal" style="margin:16px 0 0;font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:clamp(34px,4.4vw,54px);line-height:1.06;letter-spacing:-0.02em;color:#0B0B0C">Let's build your next chapter.</h2>
+<p style="margin:20px 0 0">Tell us about your project and get a quote. Prefer to talk? Call or message us on WhatsApp.</p>
+<dl style="margin:36px 0 0;display:flex;flex-direction:column;gap:22px">
+<div><dt style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">PHONE · MON–FRI, 9AM–6PM</dt><dd style="margin:4px 0 0"><a href="tel:+919873234488" style="font-size:20px;font-weight:500">+91 98732 34488</a></dd></div>
+<div><dt style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">EMAIL</dt><dd style="margin:4px 0 0"><a href="mailto:info@mbtech.in" style="font-size:20px;font-weight:500">info@mbtech.in</a></dd></div>
+<div><dt style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">OFFICE</dt><dd style="margin:4px 0 0;color:#0B0B0C">C-121, Ithum, Sector 62, Noida 201301, Uttar Pradesh</dd></div>
+</dl>
+<a href="https://wa.me/919873234488" target="_blank" rel="noopener" style="margin-top:32px;display:inline-flex;align-items:center;min-height:48px;padding:0 26px;border-radius:999px;border:1px solid #CFCBC4;color:#0B0B0C;font-weight:500">Chat on WhatsApp</a>
+</div>
+<form style="flex:1 1 380px;min-width:0;display:flex;flex-direction:column;gap:18px">
+<div style="display:flex;flex-direction:column;gap:8px">
+<label for="f-name" style="font-size:14px;color:#2E2E34">Name</label>
+<input id="f-name" type="text" style="box-sizing:border-box;min-height:50px;padding:0 16px;border-radius:12px;border:1px solid #CFCBC4;background:#FFFFFF;color:#0B0B0C;font-size:16px;font-family:inherit">
+</div>
+<div style="display:flex;flex-direction:column;gap:8px">
+<label for="f-email" style="font-size:14px;color:#2E2E34">Email or phone</label>
+<input id="f-email" type="text" style="box-sizing:border-box;min-height:50px;padding:0 16px;border-radius:12px;border:1px solid #CFCBC4;background:#FFFFFF;color:#0B0B0C;font-size:16px;font-family:inherit">
+</div>
+<div style="display:flex;flex-direction:column;gap:8px">
+<label for="f-service" style="font-size:14px;color:#2E2E34">I'm interested in</label>
+<select id="f-service" style="box-sizing:border-box;min-height:50px;padding:0 16px;border-radius:12px;border:1px solid #CFCBC4;background:#FFFFFF;color:#0B0B0C;font-size:16px;font-family:inherit">
+<option>SEO</option>
+<option>PPC Management</option>
+<option>Social Media Marketing</option>
+<option>Influencer Marketing</option>
+<option>Digital PR</option>
+<option>Website Development</option>
+<option>Something else</option>
+</select>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px">
+<label for="f-msg" style="font-size:14px;color:#2E2E34">Project details</label>
+<textarea id="f-msg" rows="4" style="box-sizing:border-box;padding:14px 16px;border-radius:12px;border:1px solid #CFCBC4;background:#FFFFFF;color:#0B0B0C;font-size:16px;font-family:inherit;resize:vertical"></textarea>
+</div>
+<button type="submit" style="min-height:54px;border:0;border-radius:999px;background:#D9181F;color:#FFFFFF;font-size:16px;font-weight:600;font-family:inherit;cursor:pointer">Send my query</button>
+</form>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="border-top:1px solid #E4E2DE;background:#F6F5F3">
+<div style="max-width:1200px;margin:0 auto;padding:64px 32px 40px;box-sizing:border-box;display:flex;flex-wrap:wrap;gap:48px">
+<div style="flex:2 1 320px;min-width:0">
+<div style="display:flex;align-items:center;gap:10px;font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:24px;color:#0B0B0C">
+<img src="images/mbtech-logo.png" alt="MBtech" width="937" height="248" style="display:block;height:34px;width:auto">
+</div>
+<p style="margin:16px 0 0;max-width:380px;font-size:15px">A brand communications consultancy with revolutionary ideas and a modern take on online marketing.</p>
+</div>
+<div style="flex:1 1 160px;min-width:0">
+<div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">OFFERINGS</div>
+<ul style="margin:14px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px;font-size:15px">
+<li><a href="offerings.html">SEO</a></li>
+<li><a href="offerings.html">PPC Management</a></li>
+<li><a href="offerings.html">Social Media</a></li>
+<li><a href="offerings.html">Digital PR</a></li>
+<li><a href="offerings.html">Web Development</a></li>
+</ul>
+</div>
+<div style="flex:1 1 160px;min-width:0">
+<div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">COMPANY</div>
+<ul style="margin:14px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px;font-size:15px">
+<li><a href="who-we-are.html">Who we are</a></li>
+<li><a href="clients.html">Our clients</a></li>
+<li><a href="#testimonials">Testimonials</a></li>
+<li><a href="contact.html">Contact us</a></li>
+</ul>
+</div>
+<div style="flex:1 1 200px;min-width:0">
+<div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#6B6B73">REACH US</div>
+<ul style="margin:14px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px;font-size:15px">
+<li><a href="tel:+919873234488">+91 98732 34488</a></li>
+<li><a href="mailto:info@mbtech.in">info@mbtech.in</a></li>
+<li>Sector 62, Noida 201301</li>
+</ul>
+</div>
+</div>
+<div style="max-width:1200px;margin:0 auto;padding:0 32px 36px;box-sizing:border-box;font-size:13px;color:#6B6B73">© 2026 MBtech (M.B. Technologies). All rights reserved.</div>
+</footer>
+
+</div>
+<script>
+(function(){
+  var t=document.querySelector('.ht'),m=document.getElementById('menu');
+  if(!t||!m) return;
+  function set(o){m.classList.toggle('open',o);t.setAttribute('aria-expanded',o?'true':'false');t.setAttribute('aria-label',o?'Close menu':'Open menu');}
+  t.addEventListener('click',function(){set(t.getAttribute('aria-expanded')!=='true');});
+  m.addEventListener('click',function(e){if(e.target.closest('a'))set(false);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')set(false);});
+  window.addEventListener('resize',function(){if(window.innerWidth>860)set(false);});
+})();
+</script>
+</body>
+</html>
